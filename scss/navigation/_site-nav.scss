@@ -1,0 +1,33 @@
+/*** Variables ***/
+
+
+
+/*** Styles ***/
+
+.site-nav {
+    background: grey;
+    box-shadow: 0 0 7px 0 grey;
+    border-bottom: 1px solid grey;
+    padding: 0.5rem 1rem;
+}
+
+.list-view {
+    display: none;
+}
+
+.icon-view {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media(min-width:600px)
+{
+    .list-view{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .icon-view{
+        display: none;
+    }
+}
